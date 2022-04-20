@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1400px;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+
+/* header-start */
+.header-menu {
+    background-color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-menu .menu-section {
+    text-align: center;
+}
+.header-menu .menu-section ul {
+}
+.header-menu .menu-section ul li {
+    background-color: #48dbfb;
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 20px 5px;
+}
+.header-menu .menu-section ul li:hover {
+    background-color: white;
+}
+.header-menu .menu-section ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    position: relative;
+}
+.header-menu .menu-section ul li a:hover {
+    color: #48dbfb;
+}
+.header-menu .menu-section ul li a::before {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s;
+    bottom: 0;
+    left: 0;
+}
+.header-menu .menu-section ul li a:hover::before {
+    width: 100%;
+}
+/* header-end */
+
+/* banner-start */
+.banner {
+    background-color: #48dbfb;
+    text-align: center;
+    padding: 100px 0;
+}
+.banner p {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner h1 {
+    color: white;
+    font-size: 70px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner button {
+    padding: 15px 10px;
+    font-size: 20px;
+    color: #c8c8d3;
+    border-radius: 10px;
+    background-color: #fdfcfd;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+.banner button a {
+    color: #c8c8d3;
+    margin-right: 15px;
+}
+.banner button::before {
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: absolute;
+    transition: .5s;
+    position: absolute;
+    z-index: -1;
+}
+.banner button:hover::before {
+    width: 100%;
+}
+
+.banner button a span {
+}
+.banner button a span i {
+}
+/* banner-end */
+
+
+/* about-start */
+.about {
+    background-color: #f7f9f9;
+    text-align: center;
+}
+.about-section h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Work Sans', sans-serif;
+}
+.about-section p {
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: 'Work Sans', sans-serif;
+}
+.img-section {
+    display: inline-block;
+}
+.img-section .first-line {
+    display: inline-block;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.img-section .first-line .img-1 {
+    display: inline-block;
+    width: 285px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.img-section .first-line .img-1:hover{
+    transform: rotate(360deg) ;
+}
+.img-section .first-line .img-2 {
+    display: inline-block;
+    width: 285px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.img-section .first-line .img-2:hover{
+    transform: rotate(40deg);
+}
+.img-section .first-line .img-3 {
+    display: inline-block;
+    width: 285px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.img-section .first-line .img-3:hover{
+    transform: rotate(-40deg);
+}
+.img-section .first-line .img-4 {
+    display: inline-block;
+    width: 285px;
+    transition: .5s;
+}
+.img-section .first-line .img-4:hover{
+    transform: rotate(-40deg);
+}
+.img-section .second-line {
+    display: inline-block;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+.img-section .second-line .img-5 {
+    display: inline-block;
+    width: 285px;
+    margin-left: 0;
+    transition: .5s;
+}
+.img-section .second-line .img-5:hover{
+    transform: rotate(40deg);
+}
+.img-section .second-line .img-6 {
+    display: inline-block;
+    width: 280px;
+    margin-left: 15px;
+    transition: .5s;
+    overflow: hidden;
+}
+.img-section .second-line .img-6:hover{
+    transform: rotate(-360deg) ;
+}
+.img-section .second-line .img-7 {
+    display: inline-block;
+    width: 285px;
+    margin-left: 15px;
+    transition: .5s;
+}
+.img-section .second-line .img-7:hover{
+    transform: rotate(20deg);
+}
+.img-section .second-line .img-8 {
+    display: inline-block;
+    width: 285px;
+    margin-left: 15px;
+    transition: .5s;
+}
+.img-section .second-line .img-8:hover{
+    transform: scale(1.1);
+}
+
+.about-bottom {
+    text-align: center;
+}
+.about-bottom h2 {
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.about-bottom p {
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #ababaf;
+    font-family: 'Work Sans', sans-serif;
+}
+/* about-end */
+
+
+/* bottom-start */
+.bottom-menu{
+    
+   padding-bottom: 25px;
+}
+.bottom-menu .step-1{
+    display: inline-block;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 2px 10px;
+    transition: .5s;
+    transform: skew(30deg,150deg);
+    
+}
+.bottom-menu .step-1:hover{
+    background-color: #48dbfb;
+    transform: scale(2.0);
+    color: black;
+}
+.bottom-menu .step-2{
+    display: inline-block;
+    margin-right: 350px;
+    margin-left: 350px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    transition: .5s;
+    padding: 5px 15px;
+}
+.bottom-menu .step-2:hover{
+    background-color: #48dbfb;
+    transform: scale(1.7);
+    color: black;
+}
+.bottom-menu .step-3{
+    display: inline-block;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    transform: skew(-23deg,203deg);
+    transition: .5s;
+}
+.bottom-menu .step-3:hover{
+    background-color: #48dbfb;
+    transform: scale(2.0);
+    color: black;
+}
+/* bottom-end */
+
+
+/* footer-start */
+.footer{
+    text-align: center;
+    background-color: #2e2f31;
+}
+.footer p{
+ color: white;
+ padding: 50px 50px;
+ font-size: 20px;
+ font-family: 'Work Sans', sans-serif;
+
+}
+/* footer-end */
